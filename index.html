@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://raw.githubusercontent.com/RMartinPer/List-Diary/master/app/src/main/res/drawable/logo_app.png" rel="icon" type="image/png">
+	<link href="https://raw.githubusercontent.com/RMartinPer/List-Diary/master/app/src/main/res/drawable/logo_app.png" rel="shortcut icon" type="image/png">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Redirection to the List Diary Privacy Policy</title>
+	<script language="javascript" type="text/javascript">
+		var language = window.navigator.language;
+		var languageFirstTwo = language.substr(0, 2);
+		var redirectLink;
+		switch (languageFirstTwo) {
+			case "es":
+				redirectLink = "privacy-policy-es.html";
+			break;
+			default:
+				redirectLink = "privacy-policy-en.html";
+		}
+		openLink = function() {
+			window.location.href = redirectLink;
+		}
+		openLink()
+	</script>
+	<style>
+		@font-face {
+			font-family: "Aller";
+			font-style: normal;
+			font-weight: 400;
+			src: url("https://fonts.cdnfonts.com/s/12/Aller_Rg.woff");
+		}
+		@font-face {
+			font-family: "Aller";
+			font-style: italic;
+			font-weight: 400;
+			src: url("https://fonts.cdnfonts.com/s/12/Aller_It.woff");
+		}
+		@font-face {
+			font-family: "Aller";
+			font-style: normal;
+			font-weight: 700;
+			src: url("https://fonts.cdnfonts.com/s/12/Aller_Bd.woff");
+		}
+		@font-face {
+			font-family: "Aller";
+			font-style: italic;
+			font-weight: 700;
+			src: url("https://fonts.cdnfonts.com/s/12/Aller_BdIt.woff");
+		}
+		body {
+			font-family: "Aller";
+			padding-left: 1em;
+			padding-right: 1em;
+		}
+	</style>
+</head>
+<body>
+	<p>If you are not redirected automatically, follow this <a href ="javascript:openLink()">link</a>.</p>
+</body>
+</html>
