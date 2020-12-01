@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF2196F3</color>
+    <color name="colorPrimaryDark">#FF1976D2</color>
+    <color name="colorPrimaryLight">#FF64B5F6</color>
+    <color name="colorAccent">#FF536DFE</color>
+    <color name="colorSplash">#FF1A237E</color>
+    <color name="colorCancelButton">#FFF44336</color>
+    <color name="colorAcceptButton">#FF8BC34A</color>
+    <color name="colorTimeButton">#FFFF5722</color>
+    <color name="colorPressedFieldButton">#FF673AB7</color>
+    <color name="colorFieldButton">#FF9575CD</color>
+    <color name="colorPressedCustomDialogButton">#FF0288D1</color>
+    <color name="colorCustomDialogButton">#FF03A9F4</color>
+    <color name="colorPressedSettingsDialogButton">#FF304FFE</color>
+    <color name="colorSettingsDialogButton">#FF536DFE</color>
+    <color name="colorPressedLinkText">#FF2962FF</color>
+    <color name="colorLinkText">#FF448AFF</color>
+    <color name="colorPressedIcons8Link">#FF616161</color>
+    <color name="colorIcons8Link">#FF212121</color>
+    <color name="colorPressedNavListItem">#FF1976D2</color>
+    <color name="colorNavListItem">#FF2196F3</color>
+    <color name="colorPressedTaskListItem">#FF0288D1</color>
+    <color name="colorTaskListItem">#FF03A9F4</color>
+    <color name="colorRecordListItem">#FF00BCD4</color>
+    <color name="colorSelectedFieldListItem">#FF7B1FA2</color>
+    <color name="colorPressedFieldListItem">#FF9C27B0</color>
+    <color name="colorFieldListItem">#FFBA68C8</color>
+</resources>

@@ -1,0 +1,64 @@
+apply plugin: 'com.android.application'
+apply plugin: 'org.sonarqube'
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion '30.0.2'
+    defaultConfig {
+        applicationId 'com.rmartinper.listdiary'
+        minSdkVersion 15
+        targetSdkVersion 30
+        versionCode 1
+        versionName '1.0'
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+        vectorDrawables {
+            useSupportLibrary true
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    allprojects {
+        tasks.withType(JavaCompile) {
+            options.deprecation = true
+        }
+    }
+}
+
+dependencies {
+    implementation project(':filepicker')
+    implementation 'androidx.appcompat:appcompat:1.3.0-alpha02'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'com.github.florent37:viewtooltip:1.2.2'
+    implementation 'com.google.android.material:material:1.3.0-alpha04'
+    implementation 'com.takisoft.datetimepicker:datetimepicker:1.0.2'
+    testImplementation 'junit:junit:4.13.1'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+}
+
+sonarqube {
+    properties {
+        property 'sonar.host.url', 'http://localhost:9000'
+        property 'sonar.login', 'admin'
+        property 'sonar.password', 'admin'
+        property 'sonar.scm.provider', 'svn'
+        property 'sonar.language', 'java'
+        property 'sonar.issue.ignore.multicriteria', 'e1, e2, e3'
+        property 'sonar.issue.ignore.multicriteria.e1.ruleKey', 'squid:MaximumInheritanceDepth'
+        property 'sonar.issue.ignore.multicriteria.e1.resourceKey', '**/*.java'
+        property 'sonar.issue.ignore.multicriteria.e2.ruleKey', 'squid:S4042' //NioFileDeleteCheck
+        property 'sonar.issue.ignore.multicriteria.e2.resourceKey', '**/*.java'
+        property 'sonar.issue.ignore.multicriteria.e3.ruleKey', 'squid:S4719' //StandardCharsetsConstantsCheck
+        property 'sonar.issue.ignore.multicriteria.e3.resourceKey', '**/*.java'
+        //property 'sonar.cpd.exclusions', 'src/main/java/**/Description.java, src/main/java/**/Field.java, src/main/java/**/Value.java'
+        property 'sonar.projectKey', 'com.rmartinper.listdiary'
+        property 'sonar.projectName', 'List Diary'
+        property 'sonar.projectVersion', '1'
+        property 'sonar.sourceEncoding', 'UTF-8'
+        property 'sonar.sources', 'src/main/'
+    }
+}
