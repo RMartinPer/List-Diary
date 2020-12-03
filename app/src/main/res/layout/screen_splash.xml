@@ -21,13 +21,30 @@
         android:textSize="30sp"
         android:textStyle="bold" />
 
-    <ImageView
-        android:id="@+id/iv_emblem"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:id="@+id/linear_emblem"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:contentDescription="Emblem of the App"
-        app:srcCompat="@drawable/ic_developer_board_white_120dp" />
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <View
+            android:id="@+id/divider_emblem"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent" />
+
+        <ImageView
+            android:id="@+id/iv_emblem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="Emblem of the App"
+            app:srcCompat="@drawable/ic_developer_board_white_200dp" />
+
+    </LinearLayout>
 
     <TextView
         android:id="@+id/tv_rights"
