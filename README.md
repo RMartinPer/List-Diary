@@ -56,76 +56,90 @@ Android application of management of lists with definable fields and of tasks wi
 
 ![Screenshot 11](https://github.com/RMartinPer/List-Diary/blob/master/screenshots/aboutScreen.png)
 
+#### With the Privacy Policy displayed
+
+![Screenshot 12](https://github.com/RMartinPer/List-Diary/blob/master/screenshots/aboutScreenPrivacy.png)
+
 #### With the chooser for the email
 
-![Screenshot 12](https://github.com/RMartinPer/List-Diary/blob/master/screenshots/aboutScreenEmailChooser.png)
+![Screenshot 13](https://github.com/RMartinPer/List-Diary/blob/master/screenshots/aboutScreenEmailChooser.png)
 
 #### With the chooser for the Icons8 link
 
-![Screenshot 13](https://github.com/RMartinPer/List-Diary/blob/master/screenshots/aboutScreenIcons8Chooser.png)
+![Screenshot 14](https://github.com/RMartinPer/List-Diary/blob/master/screenshots/aboutScreenIcons8Chooser.png)
+
+#### With the chooser for the Privacy Policy
+
+![Screenshot 15](https://github.com/RMartinPer/List-Diary/blob/master/screenshots/aboutScreenPrivacyChooser.png)
+
+### Privacy Policy
+
+#### Displayed on a mobile browser
+
+![Screenshot 16](https://github.com/RMartinPer/List-Diary/blob/master/screenshots/privacyPolicy.png)
 
 ### Task Screen
 
 #### With a task without fields
 
-![Screenshot 14](https://github.com/RMartinPer/List-Diary/blob/master/screenshots/taskScreenWithoutFields.png)
+![Screenshot 17](https://github.com/RMartinPer/List-Diary/blob/master/screenshots/taskScreenWithoutFields.png)
 
 #### With a task with fields
 
-![Screenshot 15](https://github.com/RMartinPer/List-Diary/blob/master/screenshots/taskScreenWithFields.png)
+![Screenshot 18](https://github.com/RMartinPer/List-Diary/blob/master/screenshots/taskScreenWithFields.png)
 
 #### With the menu of additional actions of the task
 
-![Screenshot 16](https://github.com/RMartinPer/List-Diary/blob/master/screenshots/taskScreenOverflowDisplayed.png)
+![Screenshot 19](https://github.com/RMartinPer/List-Diary/blob/master/screenshots/taskScreenOverflowDisplayed.png)
 
 #### With a task with record
 
-![Screenshot 17](https://github.com/RMartinPer/List-Diary/blob/master/screenshots/taskScreenWithRecord.png)
+![Screenshot 20](https://github.com/RMartinPer/List-Diary/blob/master/screenshots/taskScreenWithRecord.png)
 
 ### New List Screen
 
 #### Initial state
 
-![Screenshot 18](https://github.com/RMartinPer/List-Diary/blob/master/screenshots/newListScreen.png)
+![Screenshot 21](https://github.com/RMartinPer/List-Diary/blob/master/screenshots/newListScreen.png)
 
 #### With the fields created
 
-![Screenshot 19](https://github.com/RMartinPer/List-Diary/blob/master/screenshots/newListScreenWithFields.png)
+![Screenshot 22](https://github.com/RMartinPer/List-Diary/blob/master/screenshots/newListScreenWithFields.png)
 
 #### With the spinner menu of the field types
 
-![Screenshot 20](https://github.com/RMartinPer/List-Diary/blob/master/screenshots/newListScreenSpinnerDisplayed.png)
+![Screenshot 23](https://github.com/RMartinPer/List-Diary/blob/master/screenshots/newListScreenSpinnerDisplayed.png)
 
 ### Edit List Screen
 
 #### With a list without fields
 
-![Screenshot 21](https://github.com/RMartinPer/List-Diary/blob/master/screenshots/editListScreenWithoutFields.png)
+![Screenshot 24](https://github.com/RMartinPer/List-Diary/blob/master/screenshots/editListScreenWithoutFields.png)
 
 #### With a list with fields
 
-![Screenshot 22](https://github.com/RMartinPer/List-Diary/blob/master/screenshots/editListScreenWithFields.png)
+![Screenshot 25](https://github.com/RMartinPer/List-Diary/blob/master/screenshots/editListScreenWithFields.png)
 
 #### With the spinner menu of the field types
 
-![Screenshot 23](https://github.com/RMartinPer/List-Diary/blob/master/screenshots/editListScreenSpinnerDisplayed.png)
+![Screenshot 26](https://github.com/RMartinPer/List-Diary/blob/master/screenshots/editListScreenSpinnerDisplayed.png)
 
 ### New Task Screen
 
 #### Without defined fields
 
-![Screenshot 24](https://github.com/RMartinPer/List-Diary/blob/master/screenshots/newTaskScreenWithoutFields.png)
+![Screenshot 27](https://github.com/RMartinPer/List-Diary/blob/master/screenshots/newTaskScreenWithoutFields.png)
 
 #### With defined fields
 
-![Screenshot 25](https://github.com/RMartinPer/List-Diary/blob/master/screenshots/newTaskScreenWithFields.png)
+![Screenshot 28](https://github.com/RMartinPer/List-Diary/blob/master/screenshots/newTaskScreenWithFields.png)
 
 ### Edit Task Screen
 
 #### Without defined fields
 
-![Screenshot 26](https://github.com/RMartinPer/List-Diary/blob/master/screenshots/editTaskScreenWithoutFields.png)
+![Screenshot 29](https://github.com/RMartinPer/List-Diary/blob/master/screenshots/editTaskScreenWithoutFields.png)
 
 #### With defined fields
 
-![Screenshot 27](https://github.com/RMartinPer/List-Diary/blob/master/screenshots/editTaskScreenWithFields.png)
+![Screenshot 30](https://github.com/RMartinPer/List-Diary/blob/master/screenshots/editTaskScreenWithFields.png)

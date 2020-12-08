@@ -15,9 +15,13 @@
         <item name="fontFamily">@font/aller</item>
     </style>
 
-    <style name="AppTheme.NoActionBar.FullScreen" parent="AppTheme.NoActionBar">
-        <item name="android:windowFullscreen">true</item>
+    <style name="AppTheme.FullScreen" parent="AppTheme.NoActionBar">
         <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="AppTheme.SplashScreen" parent="AppTheme.FullScreen">
+        <item name="android:windowBackground">@color/colorSplash</item>
     </style>
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
