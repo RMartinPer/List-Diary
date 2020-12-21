@@ -14,20 +14,23 @@
 	<meta name="msapplication-TileImage" content="images/icons/mstile.png">
 	<meta name="msapplication-TileColor" content="#0d47a1">
 	<script language="javascript" type="text/javascript">
-		var language = window.navigator.language;
-		var languageFirstTwo = language.substr(0, 2);
-		var redirectLink;
-		switch (languageFirstTwo) {
-			case "es":
-				redirectLink = "privacy-policy-es.html";
-			break;
-			default:
-				redirectLink = "privacy-policy-en.html";
-		}
 		openLink = function() {
+			var language = window.navigator.language;
+			var languageFirstTwo = language.substr(0, 2);
+			var redirectLink;
+			switch (languageFirstTwo) {
+				case "es":
+					redirectLink = "privacy-policy-es.html";
+				break;
+				case "fr":
+					redirectLink = "privacy-policy-fr.html";
+				break;
+				default:
+					redirectLink = "privacy-policy-en.html";
+			}
 			window.location.href = redirectLink;
 		}
-		openLink()
+		window.onload = openLink()
 	</script>
 </head>
 <body>
