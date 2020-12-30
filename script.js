@@ -39,7 +39,7 @@ openEmail = function() {
 				confirmGmail = "Vuoi inviare un'e-mail dal tuo account Gmail?";
 			break;
 			case "pt":
-				confirmGmail = "Você deseja enviar um correio-e da sua conta do Gmail?";
+				confirmGmail = "Você quer enviar um correio-e da sua conta do Gmail?";
 			break;
 			default:
 				confirmGmail = "Do you want to send an e-mail from your Gmail account?";
