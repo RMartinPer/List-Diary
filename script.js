@@ -10,6 +10,9 @@ openLink = function() {
 		case "fr":
 			redirectLink = "privacy-policy-fr.html";
 		break;
+		case "it":
+			redirectLink = "privacy-policy-it.html";
+		break;
 		case "pt":
 			redirectLink = "privacy-policy-pt.html";
 		break;
@@ -27,16 +30,19 @@ openEmail = function() {
 		var confirmGmail;
 		switch (languageFirstTwo) {
 			case "es":
-				confirmGmail = "¿Quieres enviar un correo electrónico desde tu cuenta de Gmail?";
+				confirmGmail = "¿Quieres enviar un correo-e desde tu cuenta de Gmail?";
 			break;
 			case "fr":
-				confirmGmail = "Voulez-vous envoyer un e-mail à partir de votre compte Gmail?";
+				confirmGmail = "Voulez-vous envoyer un courriel à partir de votre compte Gmail?";
+			break;
+			case "it":
+				confirmGmail = "Vuoi inviare un'e-mail dal tuo account Gmail?";
 			break;
 			case "pt":
-				confirmGmail = "Você deseja enviar um e-mail da sua conta do Gmail?";
+				confirmGmail = "Você deseja enviar um correio-e da sua conta do Gmail?";
 			break;
 			default:
-				confirmGmail = "Do you want to send an email from your Gmail account?";
+				confirmGmail = "Do you want to send an e-mail from your Gmail account?";
 		}
 		if (window.confirm(confirmGmail)) {
 			window.open("https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=raumar95@gmail.com", "_blank");
