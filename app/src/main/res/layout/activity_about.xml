@@ -119,7 +119,7 @@
 
             <ImageView
                 android:id="@+id/icons8_logo"
-                android:layout_width="48dp"
+                android:layout_width="45dp"
                 android:layout_height="48dp"
                 android:layout_gravity="center_vertical"
                 android:contentDescription="Logo of Icons8"

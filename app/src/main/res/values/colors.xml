@@ -4,6 +4,7 @@
     <color name="colorPrimaryDark">#FF1976D2</color>
     <color name="colorPrimaryLight">#FF64B5F6</color>
     <color name="colorAccent">#FF536DFE</color>
+    <color name="colorBkgdLauncher">#FF448AFF</color>
     <color name="colorSplash">#FF1A237E</color>
     <color name="colorCancelButton">#FFF44336</color>
     <color name="colorAcceptButton">#FF8BC34A</color>
